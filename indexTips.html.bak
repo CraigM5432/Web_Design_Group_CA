@@ -1,0 +1,137 @@
+<!-- 5 essential tags -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		
+		<title>Tips/resources</title>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		
+		
+			
+			<link href="css/bootstrap.min.css" rel="stylesheet"> 
+			<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital@1&display=swap" rel="stylesheet">
+			<script src="https://kit.fontawesome.com/0fa685bfa0.js" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="styles.css">
+			<link href="indexhomepage.html">
+			<link href="indexTips.html">
+			<link href="indexAboutUs.html">
+			<link href="indexGame.html">
+		
+		
+	</head>
+	<body>
+			
+			<!-- <div class="container-fluid">	 -->
+				
+				<!-- <!-- nav --> 
+					<!-- <div class="row"> -->
+							<!-- <div class="col-sm-7">						 -->
+								<!-- <h1>You'll Find These Tips Useful</h1> -->
+					
+					
+							<!-- </div>	 -->
+						<!-- <div class="col-sm-5"> -->
+							<!-- <nav class="navbar navbar-expand-lg bg-light"> -->
+							  <!-- <div class="container-fluid"> -->
+								<!-- <!-- <a class="navbar-brand" href="#">Navbar</a> --> 
+								<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+								  <!-- <span class="navbar-toggler-icon"></span> -->
+								<!-- </button> -->
+								<!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+								  <!-- <ul class="navbar-nav ml-auto"> -->
+									<!-- <li class="nav-item"> -->
+									  <!-- <a class="nav-link active" href="#">Home</a> -->
+									<!-- </li> -->
+									<!-- <li class="nav-item"> -->
+									  <!-- <a class="nav-link active" aria-current="page" href="#">Tips/Resourses</a> -->
+									<!-- </li> -->
+									<!-- <li class="nav-item"> -->
+									  <!-- <a class="nav-link active" href="#">AboutUs</a> -->
+									<!-- </li> -->
+									<!-- <li class="nav-item"><a class="nav-link active" href="#">Game</a> -->
+									<!-- </li> -->
+									<!-- <li class="nav-item"> -->
+									  <!-- <a class="nav-link active" href="#">Survey</a> -->
+									<!-- </li> -->
+								  <!-- </ul> -->
+								<!-- </div> -->
+							  <!-- </div> -->
+							<!-- </nav> -->
+						<!-- </div> -->
+				
+					<!-- </div> -->
+					<nav>
+			<label class="logo">Enjoy Our Non-Competitive Game:</label>
+			<ul>
+				<li><a href="indexhomepage.html">HOME</a></li>
+				<li><a href="indexTips.html">Tips/Resources</a></li>
+				<li><a href="indexAboutUs.html">About Us</a></li>
+				<li><a class="active" href="indexGame.html">Game</a></li>
+				<li><a href="indexSurvey.html">Survey</a></li>
+			</ul>
+		</nav>
+				
+					<div class="row">
+						<div class="col-sm-6">
+						
+							<img class="img-banner" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Images/other/img2.jpeg" alt="project image" >
+					
+									<script>
+										function bigImg(x) {
+										
+										  x.style.height = "550px";
+										  x.style.width = "650px";
+										}
+
+										function normalImg(x) {
+										  x.style.height = "500px";
+										  x.style.width = "600px";
+										}
+									</script>
+					
+						</div> 
+				
+						<div class="col-sm-6">
+							<div class="text">
+								<p>Create a schedule and manage your time wisely. Keep a semester and a weekly calendar, Stay organized and be thorough. Have a designated study space that is free of distractions so you can focus on your work, Remain engaged throughout the whole course, Take care of yourself, Know where to turn for help. The key factors would be </p>
+							</div>
+						
+						
+						
+								<img class="redi" src="Images/other/Image2.jpeg" alt="icon of project">				
+						
+							<div class="lists">
+								<ol>						
+									<li>Persistence, persistence is perhaps the biggest key to success in online learning
+									Effective Time-Management Skills, Effective and Appropriate Communication Skills</li>
+									<li>Basic Technical Skills, Reading and Writing Skills, Motivation and Independence</li> 
+									<li>A Good Study Environment.</li>
+								</ol>
+							</div>
+							
+						</div>					
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							
+								<div class="footer">
+									
+									<a href="https://www.facebook.com/" class="fab fa-facebook-f fa-2xl" ></a>
+									<a href="https://twitter.com/" class="fab fa-twitter fa-2xl"></a>
+									<a href="https://www.instagram.com/" class="fab fa-instagram fa-2xl"></a>
+									<a href="https://ie.linkedin.com/" class="fab fa-linkedin fa-2xl"></a>
+									<a href="https://www.pinterest.ie/" class="fab fa-pinterest fa-2xl"></a>
+								</div>
+						
+						</div>
+					</div>
+		
+			
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		
+	</body>
+</html>

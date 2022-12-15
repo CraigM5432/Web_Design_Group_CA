@@ -1,0 +1,134 @@
+<!-- 5 essential tags -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		
+		<title>About Us</title>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<!-- <link href="mystyles.css" rel="stylesheet"> -->
+		
+			
+			<link href="css/bootstrap.min.css" rel="stylesheet"> 
+			<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital@1&display=swap" rel="stylesheet">
+			<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+			<link rel="stylesheet" href="styles.css">
+			<link href="indexhomepage.html">
+			<link href="indexTips.html">
+			<link href="indexAboutUs.html">
+			<link href="indexGame.html">
+		
+		
+	</head>
+	<body>
+			 <div class="container-fluid bg-1">
+				
+				
+				 <!-- <div class="col-sm-7"> -->
+					 <!-- <!-- <h1>How We Managed With Studying From Home</h1>  -->
+					<!-- </div>  -->
+				<!-- </div> -->
+				<!-- <div class="row"> -->
+					<!-- <div class="col-sm-"6> -->
+						<!-- <p>How We Managed With Studying From Home:</p> -->
+					<!-- </div> -->
+				
+				
+				<!-- nav -->
+					
+					<!-- <label class="logo">You'll Find These Tips Useful:</label> -->
+					<!-- <div class="col-sm-5"> -->
+						<!-- <nav class="navbar navbar-expand-lg bg-light"> -->
+						  <!-- <div class="container-fluid"> -->
+							<!-- <!-- <a class="navbar-brand" href="#">Navbar</a> --> 
+							<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+							  <!-- <span class="navbar-toggler-icon"></span> -->
+							<!-- </button> -->
+							<!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+							  <!-- <ul class="navbar-nav ml-auto"> -->
+								<!-- <li class="nav-item"> -->
+								  <!-- <a class="nav-link active" href="#">Home</a> -->
+								<!-- </li> -->
+								<!-- <li class="nav-item"> -->
+								  <!-- <a class="nav-link active" href="#">Tips/Resourses</a> -->
+								<!-- </li> -->
+								<!-- <li class="nav-item"> -->
+								  <!-- <a class="nav-link active"aria-current="page" href="#">AboutUs</a> -->
+								<!-- </li> -->
+								<!-- <li class="nav-item"><a class="nav-link active" href="#">Game</a> -->
+								<!-- </li> -->
+								<!-- <li class="nav-item"> -->
+								  <!-- <a class="nav-link active" href="#">Survey</a> -->
+								<!-- </li> -->
+							  <!-- </ul> -->
+							<!-- </div> -->
+						  <!-- </div> -->
+						<!-- </nav> -->
+					<!-- </div> -->
+				<nav>
+					<label class="logo">How We Managed With Studying From Home</label>
+					<ul>
+						<li><a href="indexhomepage.html">HOME</a></li>
+						<li><a href="indexTips.html">Tips/Resources</a></li>
+						<li><a href="indexAboutUs.html">About Us</a></li>
+						<li><a class="active" href="indexGame.html">Game</a></li>
+						<li><a href="indexSurvey.html">Survey</a></li>
+					</ul>
+				</nav>
+						
+			<div class="row">
+					
+				<div class="col-sm-6">
+					<p>I found learning/ studying from home to be good and bad at times if I’m being completely honest. The positive thing about learning/ studying from home was the fact that I didn’t have to go very far to attend class (a 20 second commute from upstairs) and all of the notes/ slides were easily accessible online. The negative side I found was the fact that I was able to become way more distracted by the surroundings. Distractions such as family members making noise throughout the house, my dogs scratching against the door to the room that I was in and also getting notifications on either my phone or laptop all while studying or attending class online. So, I decided to make an area into a little home office. I bought a desk, a chair and a new monitor and made my learning space in the front room. It’s still there to this day! I’ve continued to use the area. So, when it’s time to study, I put on noise cancelling headphones and the mobile phone goes on silent during that time period. – Craig Murphy.</p>									
+				</div>
+				<div class="col-sm-6">
+						
+							<img src="Images/other/craig.jpg"class="img-thumbnail" alt="A picture of someone studying" >
+						
+					</div>
+			
+			</div>
+			<!-- row of 3 cols -->
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="Images/other/REDIET.jpg" class="img-thumbnail" alt="A picture of someone studying">
+					
+				</div>
+			
+				<div class="col-sm-6">
+					<p>My Experience in studying from home was quite challenging as I had given birth to my daughter, and I didn’t have the support due to the start of the pandemic. I have managed to finish my level 5 computer studies and start a new online Java course, as it was free of charge due to Covid. I had set a calendar for each topic I had to finish which helped my study to go smooth. From my experience I had followed some tips which were helpful in making my learning from home exciting. Some of the tips were Create a calm, fun environment for creativity with good lighting and a comfortable workspace, Get up early for a "power hour" to start study - while the house is quiet, Whenever you feel exhausted and overwhelmed, get off the computer and use a notebook to write down (or draw) your ideas & goals, Get more productivity tips from site, Study in bursts of 30-45 minutes and set a timer to stop and take a break. You'll be more productive! – Rediet Berhe </p>
+				</div>
+					
+			</div>
+		
+			
+			<!-- 2nd row of 3 cols -->
+			<div class="row">
+				
+				<div class="col-sm-6">
+					<p>Studying from home is always more appealing than studying anywhere else, because people feel more comfortable at their home, and this is the key to efficient studying. So, your focus should be on setting up the perfect environment for studying. Other important aspect is consistency. If you want to learn something, you must study regularly. Otherwise, you might forget the things you learnt, which will set you back from your goals. Applying these principles to my studying, I was able to make a big progress in learning a new language, enhance my geography knowledge and improve at the game of chess. “Learn as if you were not reaching your goal and as though you were scared of missing it” -Confucius </p>
+				</div>
+				<div class="col-sm-6">
+					<img src="Images/other/David.jpg" class="img-thumbnail" alt=" picture of someone studying">	
+				</div>
+				
+			</div>
+		
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="Images/other/Break.jpg" class="img-thumbnail" alt="A picture of a chessboard">
+					</div>
+					<div class="col-sm-6">								
+						<p>You should always remember to “learn” to step away from the screen. This could be when you’re getting frustrated while trying to work or write something for an assignment. It could be when your eyes are feeling tired (but you still need to finish off writing a certain paragraph). Get up and walk away from the screen for 5,10,15 minutes. Even take an hour for some lunch, a cup of coffee or tea. This will give your eyes and brain a break from the screen.  Even playing a simple game of chess will make your brain think in a different way and you could potentially come up with the solution to the problem you’re having in a project. That little “escape from reality” can boost not only your productivity but also your mood in general. And everyone “escapes from reality” in their own way. Weather that be on the phone, playing a game, listening to music, going for a walk or reading a book. </p>
+						</div>
+					
+			</div>
+		</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		
+	</body>
+</html>

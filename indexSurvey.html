@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+	<html lang="eng">
+		<head>
+			<meta charset="utf-8">
+			<title>How To Study At Home</title>
+			<meta name="viewport" content="width=device-width, initail-scale=1.0">
+			<link rel="stylesheet" href="styles.css">
+				<script>
+				/*Setting form validation with JavaScript*/
+				
+						/*Setting form validation for radio button*/
+				function validateForm() {
+					if(document.getElementById('Male').checked == false && document.getElementById('Female').checked == false && document.getElementById('Other').checked == false) {        
+					alert("Gender radio button is not selected");   
+					}
+					/*Setting form validation for Date of Birth field using a text field*/
+					let y = document.forms["myForm"]["bdate"].value;
+					if (y == "") {
+					alert("Date of Birth field is not filled out");
+					return false;
+					}
+					/*Setting form validation for Number of Siblings field using a quantity field*/
+					let c = document.forms["myForm"]["quantity"].value;
+					if (c == "") {
+					alert("Number of Siblings field is not filled out");
+					return false;
+					}
+					/*Setting form validation for Province of Ireland using a drop down field*/
+					let b = document.forms["myForm"]["payment"].value;
+					if (b == "") {
+					alert("Province of Ireland field is not filled out");
+					return false;
+					}
+				}
+				</script>
+			<link href="css/bootstrap.min.css" rel="stylesheet">
+		</head>
+		
+		<body class="bodysurvey">
+			<nav>
+			<label class="logo">Survey</label>
+				<ul>
+					<!--Navigation Bar Links-->
+					<li><a  href="indexhomepage.html">HOME</a></li>
+					<li><a  href="indexTips.html">Tips/Resources</a></li>
+					<li><a  href="indexAboutUs.html">About Us</a></li>
+					<li><a  href="indexGame.html">Game</a></li>
+					<li><a class="active" href="indexSurvey.html">Survey</a></li>
+				</ul>
+			</nav>
+			
+			<div class="containersurvey">
+					<form name="myForm" action="" >
+				
+						<!-- Inside form -->
+						<!--radio button-->
+						<div id="fgender">
+							<label id="fgender" for="Gender" required>Gender:</label>
+							
+							<label for="Male" required>Male</label>
+							<input type="radio" id="Male" value="Male" name="Gender">
+							
+							<label for="Female" required>Female</label>
+							<input type="radio" id="Female" value="Female" name="Gender">
+							
+							<label for="Other" required>Other</label>
+							<input type="radio" id="Other" value="Other" name="Gender"> 
+							
+						</div>
+						<br>
+						<!--text field-->
+						<div>
+						
+							<label for="bdate" required>Date of Birth</label>
+							<input type="text" id="bdate">
+							
+						</div>
+						<br>
+						<!--quantity field-->
+						<div>
+						
+							<label for="quantity" required>Number of Siblings:</label>
+							<input type="number" id="quantity" name="quantity" min="0" max="10">
+							
+						</div>
+						<br>
+						<!--drop down field-->
+						<div>
+						<label for="Province" required>Province of Ireland:</label>
+							<select id="payment" name="payment">
+							
+									<option value=""></option>
+									<option value="Leinster">Leinster</option>
+									<option value="Munster">Munster</option>
+									<option value="Connacht">Connacht</option>
+									<option value="Ulster">Ulster</option>
+									
+							</select>
+						</div>
+						<br>
+						
+							<label>Comments about our website:</label>
+							<br><br> 
+							<textarea name="ftext"></textarea>
+						<br>
+						<br>
+						<!-- subscribe tick down field-->
+						<div>
+						
+							<label for="tick" required>By ticking this box you are allowing your information to be stored in our database.</label>
+							<input type="checkbox" id="subscribe" name="subscribe">
+							
+						</div>
+						<br>
+						<!--reset & submit buttons-->
+						<div>
+						
+							<input type="reset">
+						
+							<input onclick="validateForm()"type="submit">
+							
+						</div>
+					</form>
+			</div>
+					
+		</body>
+	
+		
+	
+	</html>
